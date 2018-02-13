@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="postgres@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.4">
+    <root id="1"/>
+    <database id="2" parent="1" name="postgres">
+      <ObjectId>12401</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="users">
+      <ObjectId>16396</ObjectId>
+    </database>
+    <schema id="4" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2018-01-16.17:50:06.968</IntrospectionTimestamp>
+      <IntrospectionStateNumber>3513</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="5" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="6" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="7" parent="2" name="pg_temp_1">
+      <ObjectId>11848</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11849</ObjectId>
+    </schema>
+    <schema id="9" parent="2" name="information_schema">
+      <ObjectId>12113</ObjectId>
+    </schema>
+    <schema id="10" parent="2" name="pg_temp_2">
+      <ObjectId>16403</ObjectId>
+    </schema>
+    <schema id="11" parent="2" name="pg_toast_temp_2">
+      <ObjectId>16404</ObjectId>
+    </schema>
+    <schema id="12" parent="2" name="pg_temp_3">
+      <ObjectId>16420</ObjectId>
+    </schema>
+    <schema id="13" parent="2" name="pg_toast_temp_3">
+      <ObjectId>16421</ObjectId>
+    </schema>
+    <sequence id="14" parent="4" name="cars_id_seq">
+      <ObjectId>49609</ObjectId>
+      <StateNumber>3512</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="15" parent="4" name="carseq">
+      <ObjectId>41448</ObjectId>
+      <StateNumber>3065</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="16" parent="4" name="carseq1">
+      <ObjectId>41444</ObjectId>
+      <StateNumber>3063</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="17" parent="4" name="carseq2">
+      <ObjectId>41446</ObjectId>
+      <StateNumber>3064</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="18" parent="4" name="global_seq">
+      <ObjectId>41431</ObjectId>
+      <StateNumber>3047</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="19" parent="4" name="global_seq1">
+      <ObjectId>24898</ObjectId>
+      <StateNumber>1043</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="20" parent="4" name="global_seq2">
+      <ObjectId>33089</ObjectId>
+      <StateNumber>2436</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="21" parent="4" name="global_seq3">
+      <ObjectId>33715</ObjectId>
+      <StateNumber>2666</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="22" parent="4" name="global_seq4">
+      <ObjectId>33717</ObjectId>
+      <StateNumber>2668</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="23" parent="4" name="global_seq5">
+      <ObjectId>28010</ObjectId>
+      <StateNumber>2187</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="24" parent="4" name="global_seq6">
+      <ObjectId>34292</ObjectId>
+      <StateNumber>2872</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="25" parent="4" name="global_sequence">
+      <ObjectId>41420</ObjectId>
+      <StateNumber>3044</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="26" parent="4" name="global_sequence1">
+      <ObjectId>24713</ObjectId>
+      <StateNumber>632</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="27" parent="4" name="ps_id_seq">
+      <ObjectId>49625</ObjectId>
+      <StateNumber>3513</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="28" parent="4" name="seq1">
+      <ObjectId>34160</ObjectId>
+      <StateNumber>2825</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="29" parent="4" name="seq2">
+      <ObjectId>33452</ObjectId>
+      <StateNumber>2574</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="30" parent="4" name="seq3">
+      <ObjectId>34162</ObjectId>
+      <StateNumber>2826</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="31" parent="4" name="sequence1">
+      <ObjectId>33129</ObjectId>
+      <StateNumber>2447</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="32" parent="4" name="users_in_car_id_seq">
+      <ObjectId>49598</ObjectId>
+      <StateNumber>3511</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="33" parent="4" name="book_id_seq">
+      <ObjectId>34247</ObjectId>
+      <StateNumber>2843</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="34" parent="4" name="books1_id_seq">
+      <ObjectId>41563</ObjectId>
+      <StateNumber>3123</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="35" parent="4" name="books_id_seq">
+      <ObjectId>34212</ObjectId>
+      <StateNumber>2839</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="36" parent="4" name="boooks1_id_seq">
+      <ObjectId>41536</ObjectId>
+      <StateNumber>3120</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="37" parent="4" name="productsonstocks_id_seq">
+      <ObjectId>34182</ObjectId>
+      <StateNumber>2829</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="38" parent="4" name="pupils_id_seq">
+      <ObjectId>41552</ObjectId>
+      <StateNumber>3122</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="39" parent="4" name="student_id_seq">
+      <ObjectId>34235</ObjectId>
+      <StateNumber>2842</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="40" parent="4" name="value_id_seq">
+      <ObjectId>33737</ObjectId>
+      <StateNumber>2674</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <table id="41" parent="4" name="book">
+      <ObjectId>34249</ObjectId>
+      <StateNumber>2843</StateNumber>
+    </table>
+    <table id="42" parent="4" name="books">
+      <ObjectId>34214</ObjectId>
+      <StateNumber>2839</StateNumber>
+    </table>
+    <table id="43" parent="4" name="books1">
+      <ObjectId>41565</ObjectId>
+      <StateNumber>3123</StateNumber>
+    </table>
+    <table id="44" parent="4" name="boooks1">
+      <ObjectId>41538</ObjectId>
+      <StateNumber>3120</StateNumber>
+    </table>
+    <table id="45" parent="4" name="cars">
+      <ObjectId>49611</ObjectId>
+      <StateNumber>3513</StateNumber>
+    </table>
+    <table id="46" parent="4" name="parking">
+      <ObjectId>24887</ObjectId>
+      <StateNumber>1041</StateNumber>
+    </table>
+    <table id="47" parent="4" name="product">
+      <ObjectId>33719</ObjectId>
+      <StateNumber>2674</StateNumber>
+    </table>
+    <table id="48" parent="4" name="product_">
+      <ObjectId>34173</ObjectId>
+      <StateNumber>2829</StateNumber>
+    </table>
+    <table id="49" parent="4" name="productsonstocks">
+      <ObjectId>34184</ObjectId>
+      <StateNumber>2829</StateNumber>
+    </table>
+    <table id="50" parent="4" name="property">
+      <ObjectId>33728</ObjectId>
+      <StateNumber>2674</StateNumber>
+    </table>
+    <table id="51" parent="4" name="ps">
+      <ObjectId>49627</ObjectId>
+      <StateNumber>3513</StateNumber>
+    </table>
+    <table id="52" parent="4" name="pupils">
+      <ObjectId>41554</ObjectId>
+      <StateNumber>3123</StateNumber>
+    </table>
+    <table id="53" parent="4" name="schedule">
+      <ObjectId>41433</ObjectId>
+      <StateNumber>3048</StateNumber>
+    </table>
+    <table id="54" parent="4" name="stock">
+      <ObjectId>34164</ObjectId>
+      <StateNumber>2829</StateNumber>
+    </table>
+    <table id="55" parent="4" name="student">
+      <ObjectId>34237</ObjectId>
+      <StateNumber>2842</StateNumber>
+    </table>
+    <table id="56" parent="4" name="students">
+      <ObjectId>34294</ObjectId>
+      <StateNumber>2873</StateNumber>
+    </table>
+    <table id="57" parent="4" name="users">
+      <ObjectId>41422</ObjectId>
+      <StateNumber>3048</StateNumber>
+    </table>
+    <table id="58" parent="4" name="users1">
+      <ObjectId>24715</ObjectId>
+      <StateNumber>633</StateNumber>
+    </table>
+    <table id="59" parent="4" name="users_">
+      <ObjectId>16397</ObjectId>
+      <StateNumber>547</StateNumber>
+    </table>
+    <table id="60" parent="4" name="users_in_car">
+      <ObjectId>49600</ObjectId>
+      <StateNumber>3512</StateNumber>
+    </table>
+    <table id="61" parent="4" name="value">
+      <ObjectId>33739</ObjectId>
+      <StateNumber>2674</StateNumber>
+    </table>
+    <column id="62" parent="41" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2843</StateNumber>
+      <SequenceName>book_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;book_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="63" parent="41" name="student_id">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2843</StateNumber>
+    </column>
+    <column id="64" parent="41" name="name">
+      <Position>3</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2843</StateNumber>
+    </column>
+    <column id="65" parent="41" name="author">
+      <Position>4</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2843</StateNumber>
+    </column>
+    <column id="66" parent="41" name="pages">
+      <Position>5</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>2843</StateNumber>
+    </column>
+    <index id="67" parent="41" name="book_pkey">
+      <ObjectId>34256</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="68" parent="41" name="book_pkey">
+      <ObjectId>34257</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>book_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="69" parent="42" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2839</StateNumber>
+      <SequenceName>books_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;books_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="70" parent="42" name="name">
+      <Position>2</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2839</StateNumber>
+    </column>
+    <column id="71" parent="42" name="author">
+      <Position>3</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2839</StateNumber>
+    </column>
+    <column id="72" parent="42" name="pages">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>2839</StateNumber>
+    </column>
+    <index id="73" parent="42" name="books_pkey">
+      <ObjectId>34221</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="74" parent="42" name="books_pkey">
+      <ObjectId>34222</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>books_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="75" parent="43" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3123</StateNumber>
+      <SequenceName>books1_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;books1_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="76" parent="43" name="userid">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>3123</StateNumber>
+    </column>
+    <column id="77" parent="43" name="author">
+      <Position>3</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>3123</StateNumber>
+    </column>
+    <column id="78" parent="43" name="pages">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>3123</StateNumber>
+    </column>
+    <index id="79" parent="43" name="books1_pkey">
+      <ObjectId>41572</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="80" parent="43" name="books1_pkey">
+      <ObjectId>41573</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>books1_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="81" parent="43" name="books1_userid_fkey">
+      <ObjectId>41574</ObjectId>
+      <ColNames>userid</ColNames>
+      <RefTableId>41554</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>pupils</RefTableName>
+      <RefKeyName>pupils_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="82" parent="44" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3120</StateNumber>
+      <SequenceName>boooks1_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;boooks1_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="83" parent="44" name="userid">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>3120</StateNumber>
+    </column>
+    <column id="84" parent="44" name="author">
+      <Position>3</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>3120</StateNumber>
+    </column>
+    <column id="85" parent="44" name="pages">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>3120</StateNumber>
+    </column>
+    <index id="86" parent="44" name="boooks1_pkey">
+      <ObjectId>41545</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="87" parent="44" name="boooks1_pkey">
+      <ObjectId>41546</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>boooks1_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="88" parent="45" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3512</StateNumber>
+      <SequenceName>cars_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;cars_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="89" parent="45" name="userid">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3512</StateNumber>
+    </column>
+    <column id="90" parent="45" name="model">
+      <Position>3</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>3512</StateNumber>
+    </column>
+    <column id="91" parent="45" name="colour">
+      <Position>4</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>3512</StateNumber>
+    </column>
+    <index id="92" parent="45" name="cars_pkey">
+      <ObjectId>49618</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="93" parent="45" name="cars_pkey">
+      <ObjectId>49619</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>cars_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="94" parent="45" name="cars_userid_fkey">
+      <ObjectId>49620</ObjectId>
+      <ColNames>userid</ColNames>
+      <RefTableId>49600</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>users_in_car</RefTableName>
+      <RefKeyName>users_in_car_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="95" parent="46" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1390</StateNumber>
+    </column>
+    <column id="96" parent="46" name="time">
+      <Position>2</Position>
+      <DataType>date|0</DataType>
+      <StateNumber>1041</StateNumber>
+    </column>
+    <column id="97" parent="46" name="price">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1041</StateNumber>
+    </column>
+    <column id="98" parent="46" name="userid">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1041</StateNumber>
+    </column>
+    <index id="99" parent="46" name="parking_pkey">
+      <ObjectId>24891</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="100" parent="46" name="parking_pkey">
+      <ObjectId>24892</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>parking_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="101" parent="47" name="prodid">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2672</StateNumber>
+      <DefaultExpression>nextval(&apos;global_seq3&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="102" parent="47" name="prodname">
+      <Position>2</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>2672</StateNumber>
+    </column>
+    <index id="103" parent="47" name="product_pkey">
+      <ObjectId>33726</ObjectId>
+      <ColNames>prodid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="104" parent="47" name="product_pkey">
+      <ObjectId>33727</ObjectId>
+      <ColNames>prodid</ColNames>
+      <UnderlyingIndexName>product_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="105" parent="48" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2828</StateNumber>
+      <DefaultExpression>nextval(&apos;seq3&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="106" parent="48" name="name">
+      <Position>2</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>2828</StateNumber>
+    </column>
+    <column id="107" parent="48" name="price">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>2828</StateNumber>
+    </column>
+    <index id="108" parent="48" name="product__pkey">
+      <ObjectId>34180</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="109" parent="48" name="product__pkey">
+      <ObjectId>34181</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>product__pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="110" parent="49" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2829</StateNumber>
+      <SequenceName>productsonstocks_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;productsonstocks_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="111" parent="49" name="balance">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>2829</StateNumber>
+    </column>
+    <column id="112" parent="49" name="product_id">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>2829</StateNumber>
+    </column>
+    <column id="113" parent="49" name="stock_id">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>2829</StateNumber>
+    </column>
+    <index id="114" parent="49" name="productsonstocks_pkey">
+      <ObjectId>34188</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="115" parent="49" name="productsonstocks_pkey">
+      <ObjectId>34189</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>productsonstocks_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="116" parent="49" name="productsonstocks_product_id_fkey">
+      <ObjectId>34190</ObjectId>
+      <ColNames>product_id</ColNames>
+      <RefTableId>34173</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>product_</RefTableName>
+      <RefKeyName>product__pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="117" parent="49" name="productsonstocks_stock_id_fkey">
+      <ObjectId>34195</ObjectId>
+      <ColNames>stock_id</ColNames>
+      <RefTableId>34164</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>stock</RefTableName>
+      <RefKeyName>stock_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="118" parent="50" name="propid">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2673</StateNumber>
+      <DefaultExpression>nextval(&apos;global_seq4&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="119" parent="50" name="propname">
+      <Position>2</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>2673</StateNumber>
+    </column>
+    <index id="120" parent="50" name="property_pkey">
+      <ObjectId>33735</ObjectId>
+      <ColNames>propid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="121" parent="50" name="property_pkey">
+      <ObjectId>33736</ObjectId>
+      <ColNames>propid</ColNames>
+      <UnderlyingIndexName>property_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="122" parent="51" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3513</StateNumber>
+      <SequenceName>ps_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;ps_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="123" parent="51" name="carid">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3513</StateNumber>
+    </column>
+    <column id="124" parent="51" name="charge">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>3513</StateNumber>
+    </column>
+    <column id="125" parent="51" name="price">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>3513</StateNumber>
+    </column>
+    <column id="126" parent="51" name="time1">
+      <Position>5</Position>
+      <DataType>timestamp|0</DataType>
+      <StateNumber>3513</StateNumber>
+    </column>
+    <column id="127" parent="51" name="time2">
+      <Position>6</Position>
+      <DataType>timestamp|0</DataType>
+      <StateNumber>3513</StateNumber>
+    </column>
+    <index id="128" parent="51" name="ps_pkey">
+      <ObjectId>49631</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="129" parent="51" name="ps_pkey">
+      <ObjectId>49632</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>ps_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="130" parent="51" name="ps_carid_fkey">
+      <ObjectId>49633</ObjectId>
+      <ColNames>carid</ColNames>
+      <RefTableId>49611</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>cars</RefTableName>
+      <RefKeyName>cars_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="131" parent="52" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3122</StateNumber>
+      <SequenceName>pupils_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;pupils_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="132" parent="52" name="firstname">
+      <Position>2</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>3122</StateNumber>
+    </column>
+    <column id="133" parent="52" name="lastname">
+      <Position>3</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>3122</StateNumber>
+    </column>
+    <index id="134" parent="52" name="pupils_pkey">
+      <ObjectId>41561</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="135" parent="52" name="pupils_pkey">
+      <ObjectId>41562</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>pupils_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="136" parent="53" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3048</StateNumber>
+      <DefaultExpression>nextval(&apos;global_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="137" parent="53" name="startless">
+      <Position>2</Position>
+      <DataType>timestamp|0</DataType>
+      <StateNumber>3048</StateNumber>
+    </column>
+    <column id="138" parent="53" name="endless">
+      <Position>3</Position>
+      <DataType>timestamp|0</DataType>
+      <StateNumber>3048</StateNumber>
+    </column>
+    <column id="139" parent="53" name="subject">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3048</StateNumber>
+    </column>
+    <column id="140" parent="53" name="suserid">
+      <Position>5</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3048</StateNumber>
+    </column>
+    <index id="141" parent="53" name="schedule_pkey">
+      <ObjectId>41437</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="142" parent="53" name="schedule_pkey">
+      <ObjectId>41438</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>schedule_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="143" parent="53" name="schedule_suserid_fkey">
+      <ObjectId>41439</ObjectId>
+      <ColNames>suserid</ColNames>
+      <RefTableId>41422</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>users</RefTableName>
+      <RefKeyName>users_pkey</RefKeyName>
+      <RefColNames>userid</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="144" parent="54" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2827</StateNumber>
+      <DefaultExpression>nextval(&apos;seq1&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="145" parent="54" name="name">
+      <Position>2</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>2827</StateNumber>
+    </column>
+    <index id="146" parent="54" name="stock_pkey">
+      <ObjectId>34171</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="147" parent="54" name="stock_pkey">
+      <ObjectId>34172</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>stock_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="148" parent="55" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2842</StateNumber>
+      <SequenceName>student_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;student_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="149" parent="55" name="name">
+      <Position>2</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2842</StateNumber>
+    </column>
+    <column id="150" parent="55" name="extramural">
+      <Position>3</Position>
+      <DataType>boolean|0</DataType>
+      <StateNumber>2842</StateNumber>
+      <DefaultExpression>false</DefaultExpression>
+    </column>
+    <index id="151" parent="55" name="student_pkey">
+      <ObjectId>34245</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="152" parent="55" name="student_pkey">
+      <ObjectId>34246</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>student_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="153" parent="56" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3040</StateNumber>
+    </column>
+    <column id="154" parent="56" name="age">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>2873</StateNumber>
+    </column>
+    <column id="155" parent="56" name="name">
+      <Position>3</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2873</StateNumber>
+    </column>
+    <column id="156" parent="56" name="createddate">
+      <Position>4</Position>
+      <DataType>timestamp|0</DataType>
+      <StateNumber>2873</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+    </column>
+    <column id="157" parent="56" name="isadmin">
+      <Position>5</Position>
+      <DataType>boolean|0</DataType>
+      <StateNumber>2873</StateNumber>
+      <DefaultExpression>true</DefaultExpression>
+    </column>
+    <index id="158" parent="56" name="students_pkey">
+      <ObjectId>34303</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="159" parent="56" name="students_pkey">
+      <ObjectId>34304</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>students_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="160" parent="57" name="userid">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3045</StateNumber>
+      <DefaultExpression>nextval(&apos;global_sequence&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="161" parent="57" name="firstname">
+      <Position>2</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3045</StateNumber>
+    </column>
+    <column id="162" parent="57" name="lastname">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3045</StateNumber>
+    </column>
+    <column id="163" parent="57" name="dob">
+      <Position>4</Position>
+      <DataType>date|0</DataType>
+      <StateNumber>3045</StateNumber>
+    </column>
+    <column id="164" parent="57" name="email">
+      <Position>5</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3045</StateNumber>
+    </column>
+    <index id="165" parent="57" name="users_pkey">
+      <ObjectId>41429</ObjectId>
+      <ColNames>userid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="166" parent="57" name="users_pkey">
+      <ObjectId>41430</ObjectId>
+      <ColNames>userid</ColNames>
+      <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="167" parent="58" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>633</StateNumber>
+      <DefaultExpression>nextval(&apos;global_sequence1&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="168" parent="58" name="firstname">
+      <Position>2</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>633</StateNumber>
+    </column>
+    <column id="169" parent="58" name="lastname">
+      <Position>3</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>633</StateNumber>
+    </column>
+    <column id="170" parent="58" name="dob">
+      <Position>4</Position>
+      <DataType>date|0</DataType>
+      <StateNumber>633</StateNumber>
+    </column>
+    <column id="171" parent="58" name="email">
+      <Position>5</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>633</StateNumber>
+    </column>
+    <column id="172" parent="59" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>547</StateNumber>
+    </column>
+    <column id="173" parent="59" name="position">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <StateNumber>547</StateNumber>
+    </column>
+    <column id="174" parent="59" name="name">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <StateNumber>547</StateNumber>
+    </column>
+    <column id="175" parent="60" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3511</StateNumber>
+      <SequenceName>users_in_car_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;users_in_car_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="176" parent="60" name="firstname">
+      <Position>2</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3511</StateNumber>
+    </column>
+    <column id="177" parent="60" name="lastname">
+      <Position>3</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>3511</StateNumber>
+    </column>
+    <index id="178" parent="60" name="users_in_car_pkey">
+      <ObjectId>49607</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="179" parent="60" name="users_in_car_pkey">
+      <ObjectId>49608</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>users_in_car_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="180" parent="61" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2674</StateNumber>
+      <SequenceName>value_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;value_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="181" parent="61" name="prodid">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>2674</StateNumber>
+    </column>
+    <column id="182" parent="61" name="propid">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>2674</StateNumber>
+    </column>
+    <column id="183" parent="61" name="value">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>2674</StateNumber>
+    </column>
+    <index id="184" parent="61" name="value_pkey">
+      <ObjectId>33743</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="185" parent="61" name="value_pkey">
+      <ObjectId>33744</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>value_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="186" parent="61" name="value_prodid_fkey">
+      <ObjectId>33745</ObjectId>
+      <ColNames>prodid</ColNames>
+      <RefTableId>33719</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>product</RefTableName>
+      <RefKeyName>product_pkey</RefKeyName>
+      <RefColNames>prodid</RefColNames>
+    </foreign-key>
+    <foreign-key id="187" parent="61" name="value_propid_fkey">
+      <ObjectId>33750</ObjectId>
+      <ColNames>propid</ColNames>
+      <RefTableId>33728</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>property</RefTableName>
+      <RefKeyName>property_pkey</RefKeyName>
+      <RefColNames>propid</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>

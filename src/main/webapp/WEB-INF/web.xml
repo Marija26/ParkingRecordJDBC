@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>dispatcher</servlet-name>
+        <servlet-class>controller.UserController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>dispatcher</servlet-name>
+        <url-pattern>/UserController</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>dispatcher1</servlet-name>
+        <servlet-class>controller.CarController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>dispatcher1</servlet-name>
+        <url-pattern>/CarController</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>dispatcher2</servlet-name>
+        <servlet-class>controller.PSController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>dispatcher2</servlet-name>
+        <url-pattern>/PSController</url-pattern>
+    </servlet-mapping>
+    <filter>
+        <filter-name>Charset Filter</filter-name>
+        <filter-class>util.CharsetFilter</filter-class>
+        <init-param>
+            <param-name>requestEncoding></param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>Charset Filter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+</web-app>
+
